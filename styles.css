@@ -10,3 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     background: url(https://zoster.github.io/lcf-fcsuite/banner-slim.jpg) center top no-repeat;
     min-height: 300px;
 }
+.rtr-banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    color: #fff;
+}

@@ -19,8 +19,10 @@ h2 {
 }
 
 .nav-tabs .nav-link {
-  border: #42822b;
+  border: 1px solid #42822b;
   color: #42822b;
+  margin: 0 5px;
+  border-radius: 3px;
   transition: .1s opacity linear;
 }
 
@@ -35,6 +37,22 @@ h2 {
   background-color: #42822b;
   color: #fff;
   border-color: #42822b; /* Background color on hover */
+}
+
+.ft_fund_results tbody {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ft_fund_results th, 
+.ft_fund_results td{
+  display: block;
+}
+
+.ft_fund_results tr:not([class]):not([id]){
+  display: none;
 }
 
 

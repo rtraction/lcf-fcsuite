@@ -129,6 +129,11 @@ a.link-back {
   background-color: #42822b;
 }
 
+.ft_content_container .row, .ft_content_container .p-2 {
+  padding-left: 0!important;
+  margin-left: 0;
+}
+
 .ft_footer {
   background: #1f1f1f;
   padding: 90px 0;

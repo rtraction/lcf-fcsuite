@@ -134,6 +134,16 @@ a.link-back {
   margin-left: 0;
 }
 
+.form-control:focus {
+  border-color: #42822b !important;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+}
+
+select:focus {
+  border-color: #42822b !important;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+}
+
 .ft_footer {
   background: #1f1f1f;
   padding: 90px 0;

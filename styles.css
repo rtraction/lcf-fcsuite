@@ -6,6 +6,12 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
+h2 {
+  font-size: 36px;
+  letter-spacing: 0em;
+  line-height: 1.3em;
+}
+
 .ft_header_container {
     background: url(https://zoster.github.io/lcf-fcsuite/banner-slim.jpg) center top no-repeat;
     min-height: 300px;

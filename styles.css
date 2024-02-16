@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "ff-good-headline-web-pro", sans-serif;
   font-weight: 500;
   font-style: normal;
+  margin-bottom: 0.83em;
 }
 
 h2 {
@@ -57,6 +58,8 @@ a.link-back {
 .ft_footer {
   background: #1f1f1f;
   padding: 90px 0;
+  justify-content: center;
+  color: #fff;
 }
 
 .ft_footer ul, 
@@ -67,7 +70,6 @@ a.link-back {
 }
 
 .ft_footer a {
-  color: #fff;
   text-decoration: underline;
 }
 

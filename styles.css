@@ -44,6 +44,7 @@ a.link-back {
   background-color: #42822b;
   color: #fff;
   border-radius: 3px;
+  text-decoration: none;
   text-transform: uppercase;
   padding: 14px 35px;
   border: none;

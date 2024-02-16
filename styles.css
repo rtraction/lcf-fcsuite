@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     color: #fff;
 }
 

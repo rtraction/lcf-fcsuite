@@ -30,10 +30,8 @@ h2 {
 
 /* Optional: Add hover effect */
 .nav-tabs .nav-link:hover {
-  opacity: 0.8; /* Background color on hover */
+  border-color: #42822b; /* Background color on hover */
 }
-
-
 
 
 .ft_header_container {

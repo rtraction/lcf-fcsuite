@@ -19,17 +19,21 @@ h2 {
 }
 
 .nav-tabs .nav-link {
-  border: none;
+  border: #42822b;
+  color: #42822b;
   transition: .1s opacity linear;
 }
 
 .nav-tabs .nav-link.active {
   background-color: #42822b; /* Background color for active pill */
+  border-color: #42822b;
   color: #fff; /* Text color for active pill */
 }
 
 /* Optional: Add hover effect */
 .nav-tabs .nav-link:hover {
+  background-color: #42822b;
+  color: #fff;
   border-color: #42822b; /* Background color on hover */
 }
 

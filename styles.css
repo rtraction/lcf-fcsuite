@@ -49,6 +49,13 @@ h2 {
 .ft_fund_results th, 
 .ft_fund_results td{
   display: block;
+  border: none;
+}
+
+.ft_fund_results td:first-child {
+  font-family: "ff-good-headline-web-pro", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
 }
 
 .ft_fund_results tr {

@@ -13,6 +13,10 @@ h2 {
   line-height: 1.3em;
 }
 
+h3 {
+  margin-top: 0.83em;
+}
+
 /* Override default nav-tabs styles to look like nav-pills */
 .nav-tabs {
   border-bottom: none;

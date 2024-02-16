@@ -56,9 +56,14 @@ a.link-back {
 
 .ft_footer {
   background: #1f1f1f;
-  color: #fff;
   padding: 90px 0;
+}
+
+.ft_footer ul, 
+.ft_footer a, 
+.ft_footer p {
   font-size: 17px;
+  color: #fff;
 }
 
 .ft_footer a {

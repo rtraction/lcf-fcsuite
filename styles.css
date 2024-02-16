@@ -19,20 +19,18 @@ h2 {
 }
 
 .nav-tabs .nav-link {
-  border-radius: 0.25rem; /* Adjust to match nav-pills border-radius */
-  background-color: #f8f9fa; /* Background color for inactive pills */
   border: none;
-  color: #007bff; /* Text color for inactive pills */
+  transition: .1s opacity linear;
 }
 
 .nav-tabs .nav-link.active {
-  background-color: #007bff; /* Background color for active pill */
+  background-color: #42822b; /* Background color for active pill */
   color: #fff; /* Text color for active pill */
 }
 
 /* Optional: Add hover effect */
 .nav-tabs .nav-link:hover {
-  background-color: #e9ecef; /* Background color on hover */
+  opacity: 0.8; /* Background color on hover */
 }
 
 

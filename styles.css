@@ -13,6 +13,31 @@ h2 {
   line-height: 1.3em;
 }
 
+/* Override default nav-tabs styles to look like nav-pills */
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 0.25rem; /* Adjust to match nav-pills border-radius */
+  background-color: #f8f9fa; /* Background color for inactive pills */
+  border: none;
+  color: #007bff; /* Text color for inactive pills */
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #007bff; /* Background color for active pill */
+  color: #fff; /* Text color for active pill */
+}
+
+/* Optional: Add hover effect */
+.nav-tabs .nav-link:hover {
+  background-color: #e9ecef; /* Background color on hover */
+}
+
+
+
+
 .ft_header_container {
   background: url(https://zoster.github.io/lcf-fcsuite/banner-slim.jpg) center top no-repeat;
   min-height: 300px;
@@ -75,6 +100,10 @@ a.link-back {
   text-decoration: underline;
 }
 
+.ft_footer a.btn {
+  text-decoration: none;
+}
+
 .ft_footer a:hover {
   text-decoration: none;
 }
@@ -86,4 +115,5 @@ a.link-back {
 
 .ft_footer .col-md-12 {
   text-align: center;
+  padding-top: 90px;
 }

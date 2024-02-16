@@ -16,6 +16,7 @@ h2 {
 /* Override default nav-tabs styles to look like nav-pills */
 .nav-tabs {
   border-bottom: none;
+  justify-content: center;
 }
 
 .nav-tabs .nav-link {
@@ -37,6 +38,10 @@ h2 {
   background-color: #42822b;
   color: #fff;
   border-color: #42822b; /* Background color on hover */
+}
+
+.ft_fund_results {
+  margin-top: 2em;
 }
 
 .ft_fund_results tbody {

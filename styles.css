@@ -51,6 +51,15 @@ h2 {
   display: block;
 }
 
+.ft_fund_results tr {
+  width: 48%; /* Set to slightly less than half the container width to account for margins */
+  background-color: #f8f9fa; /* Background color of the blocks */
+  margin-bottom: 10px; /* Space between rows */
+  padding: 10px; /* Padding inside each block */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: add a shadow for a more block-like appearance */
+  border-radius: 5px; /* Optional: round the corners of the blocks */
+}
+
 .ft_fund_results tr:not([class]):not([id]){
   display: none;
 }

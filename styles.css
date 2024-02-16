@@ -99,7 +99,7 @@ a.link-back {
   margin-top: 4em;
 }
 
-.btn {
+.btn, .btn-primary {
   background-color: #42822b;
   color: #fff;
   border-radius: 3px;

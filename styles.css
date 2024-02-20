@@ -4,38 +4,6 @@ body {
   font-size: 17px;
 }
 
-/* For some reason the vendor hard coded some things to be bold */
-form .font-weight-bold {
-  font-weight: normal!important;
-}
-
-form h3 {
-  font-size: 17px;
-  font-weight: normal;
-  font-family: Arial, sans-serif;
-  padding-top: 2em;
-}
-
-form div:first-of-type > div:first-child + div {
-  font-weight: bold;
-  font-family: 'ff-good-headline-web-pro-con';
-  font-size: 36px;
-}
-
-form .row, form .row div {
-  display: block;
-  width: 100%;
-  min-width: 100%;
-}
-
-.form-control-sm {
-  margin-top: -1em;
-}
-
-form input.btn {
-  margin: 3em 0;
-}
-
 form .row:first-of-type h3:first-of-type,
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-good-headline-web-pro-con", sans-serif;
@@ -185,6 +153,43 @@ a.link-back {
 select:focus {
   border-color: #42822b !important;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+}
+
+/* For some reason the vendor hard coded some things to be bold */
+form .font-weight-bold {
+  font-weight: normal!important;
+}
+
+form h3 {
+  font-size: 17px;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  padding-top: 2em;
+}
+
+form .row:first-of-type h3:first-of-type, h3 {
+    margin: 1em 0 0;
+    padding: 0;
+}
+
+form div:first-of-type > div:first-child + div {
+  font-weight: bold;
+  font-family: 'ff-good-headline-web-pro-con';
+  font-size: 36px;
+}
+
+form .row, form .row div {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+}
+
+.form-control-sm {
+  margin-top: -1em;
+}
+
+form input.btn {
+  margin: 3em 0;
 }
 
 .ft_footer {

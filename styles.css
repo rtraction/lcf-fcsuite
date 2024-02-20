@@ -1,5 +1,36 @@
 @import url('https://use.typekit.net/grf6snf.css');
 
+body {
+  font-size: 17px;
+}
+
+/* For some reason the vendor hard coded some things to be bold */
+form .font-weight-bold {
+  font-weight: normal!important;
+}
+
+form h3 {
+  font-size: 17px;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  padding-top: 2em;
+}
+
+form div:first-of-type > div:first-child + div {
+  font-weight: bold;
+  font-family: 'ff-good-headline-web-pro-con';
+  font-size: 36px;
+}
+
+.form-control-sm {
+    margin-top: -1em;
+}
+
+form input.btn {
+    margin: 3em 0;
+}
+
+form .row:first-of-type h3:first-of-type,
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-good-headline-web-pro-con", sans-serif;
   font-weight: 500;
@@ -13,6 +44,7 @@ h2 {
   line-height: 1.3em;
 }
 
+form .row:first-of-type h3:first-of-type,
 h3 {
   margin-top: 0.83em;
   font-size: 60px;

@@ -22,12 +22,18 @@ form div:first-of-type > div:first-child + div {
   font-size: 36px;
 }
 
+form .row, form .row div {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+}
+
 .form-control-sm {
-    margin-top: -1em;
+  margin-top: -1em;
 }
 
 form input.btn {
-    margin: 3em 0;
+  margin: 3em 0;
 }
 
 form .row:first-of-type h3:first-of-type,

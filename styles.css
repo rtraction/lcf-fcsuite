@@ -68,6 +68,7 @@ h3 {
   background-color: #42822b;
   color: #fff;
   border-color: #42822b; /* Background color on hover */
+  text-decoration: none;
 }
 
 .ft_fund_search {

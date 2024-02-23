@@ -69,6 +69,18 @@ h3 {
   padding-top: 1em;
 }
 
+.ft_fund_search label {
+  display: none;
+}
+
+.ft_fund_search input {
+    background: url(https://rtraction.github.io/lcf-fcsuite/search.png) no-repeat 15px 50%;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    margin: 0 0 50px;
+    padding: 15px 15px 15px 60px;
+}
+
 .ft_fund_list {
   margin: 0 auto;
 }

@@ -156,6 +156,11 @@ a.link-back {
   margin-top: 4em;
 }
 
+/* hopefully just targetting the all funds list */
+a.btn.btn-primary.btn-sm {
+    margin-right: 1em;
+}
+
 .btn, .btn-primary {
   background-color: #42822b;
   color: #fff;

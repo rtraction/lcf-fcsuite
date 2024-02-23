@@ -1,6 +1,6 @@
 Style Layout Defaults
 Fund Search - (Donate/List)
- Below Search Results
+ Below "Donate To Fund"/Above Search Results
 
 Container Widths
 Header Width	

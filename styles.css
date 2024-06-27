@@ -36,6 +36,10 @@ h3 {
   font-size: 60px;
 }
 
+.ft_event_header p {
+    font-size: 36px;
+}
+
 /* Override default nav-tabs styles to look like nav-pills */
 .nav-tabs {
   border-bottom: none;

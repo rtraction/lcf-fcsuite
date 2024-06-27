@@ -14,7 +14,7 @@ a:hover {
   opacity: .8;
   color: #c33c96;
 }
-
+.ft_event_header,
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-good-headline-web-pro-con", sans-serif;
@@ -29,6 +29,7 @@ h2 {
   line-height: 1.3em;
 }
 
+.ft_event_header,
 form:not([action="/erp/donate/checkout"]):not([action="/erp/donate/create/ticket"]) .row:first-of-type h3:first-of-type,
 h3 {
   margin-top: 0.83em;

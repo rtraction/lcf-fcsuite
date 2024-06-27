@@ -15,7 +15,7 @@ a:hover {
   color: #c33c96;
 }
 
-form[action="/erp/donate/create/fund"] .row:first-of-type h3:first-of-type,
+form:not([action="/erp/donate/checkout"]) .row:first-of-type h3:first-of-type,
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-good-headline-web-pro-con", sans-serif;
   font-weight: 500;
@@ -29,7 +29,7 @@ h2 {
   line-height: 1.3em;
 }
 
-form[action="/erp/donate/create/fund"]) .row:first-of-type h3:first-of-type,
+form:not([action="/erp/donate/checkout"]) .row:first-of-type h3:first-of-type,
 h3 {
   margin-top: 0.83em;
   font-size: 60px;
@@ -196,40 +196,40 @@ select:focus {
 }
 
 /* For some reason the vendor hard coded some things to be bold */
-formaction="/erp/donate/create/fund"] .font-weight-bold {
+form:not([action="/erp/donate/checkout"]) .font-weight-bold {
   font-weight: normal!important;
 }
 
-form[action="/erp/donate/create/fund"] h3 {
+form:not([action="/erp/donate/checkout"]) h3 {
   font-size: 17px;
   font-weight: normal;
   font-family: Arial, sans-serif;
   padding-top: 2em;
 }
 
-form[action="/erp/donate/create/fund"] .row:first-of-type h3:first-of-type, h3 {
+form:not([action="/erp/donate/checkout"]) .row:first-of-type h3:first-of-type, h3 {
     margin: 1em 0 0;
     padding: 0;
 }
 
-form[action="/erp/donate/checkout"] div:first-of-type > div:first-child + div {
+form:not([action="/erp/donate/checkout"]) div:first-of-type > div:first-child + div {
   font-weight: bold;
   font-family: 'ff-good-headline-web-pro-con';
   font-size: 36px;
 }
 
-form[action="/erp/donate/create/fund"] .row, 
-form[action="/erp/donate/create/fund"] .row div {
+form:not([action="/erp/donate/checkout"]) .row, 
+form:not([action="/erp/donate/checkout"]) .row div {
   display: block;
   width: 100%;
   min-width: 100%;
 }
 
-form[action="/erp/donate/create/fund"] .form-control-sm {
+form:not([action="/erp/donate/checkout"]) .form-control-sm {
   margin-top: -1em;
 }
 
-form[action="/erp/donate/create/fund"] input.btn {
+form:not([action="/erp/donate/checkout"]) input.btn {
   margin: 3em 0;
 }
 

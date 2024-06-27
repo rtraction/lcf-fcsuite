@@ -29,7 +29,7 @@ h2 {
   line-height: 1.3em;
 }
 
-form:not([action="/erp/donate/checkout"]) .row:first-of-type h3:first-of-type,
+form[action="/erp/donate/create/fund"]) .row:first-of-type h3:first-of-type,
 h3 {
   margin-top: 0.83em;
   font-size: 60px;

@@ -1,6 +1,6 @@
 @import url('https://use.typekit.net/grf6snf.css');
 
-form[action="/erp/donate/create/ticket" > div > .row:nth-child(2) > div:nth-child(2) {
+form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-child(2) {
    font-weight: bold !important;
 }
 

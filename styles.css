@@ -2,6 +2,11 @@
 
 form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-child(2) {
    font-weight: bold !important;
+   color: white;
+}
+form[action="/erp/donate/create/ticket"] > div > .row:nth-child(2) > div:nth-child(2)::before {
+   content: "Celebrating Your Impact";  
+   color: black;
 }
 
 body {
